@@ -1,0 +1,36 @@
+.gameContainer {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.score {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#snakeGame {
+    border: 5px solid;
+}
+
+.resetBtn {
+    padding: .4rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+.btn {
+    padding: .4rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+.flex-item-2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
